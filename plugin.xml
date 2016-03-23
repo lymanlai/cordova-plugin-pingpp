@@ -74,7 +74,6 @@
         <source-file src="libs/android/alipayutdid.jar" target-dir="libs" framework="true"/>
         <source-file src="libs/android/libammsdk.jar" target-dir="libs" framework="true"/>
         <source-file src="libs/android/libpingpp.jar" target-dir="libs" framework="true"/>
-        <source-file src="libs/android/UPPayAssistEx.jar" target-dir="libs" framework="true"/>
     </platform>
     <platform name="ios">
         <!-- framework -->
@@ -96,14 +95,6 @@
         <source-file src="libs/ios/Channels/Wx/libWeChatSDK.a" framework="true"/>
         <header-file src="libs/ios/Channels/Wx/WXApi.h" />
         <header-file src="libs/ios/Channels/Wx/WXApiObject.h" />
-
-        <!-- UnionPay -->
-        <source-file src="libs/ios/Channels/UnionPay/libpingpp+up.a" framework="true"/>
-        <source-file src="libs/ios/Channels/UnionPay/libUPPayPlugin.a" framework="true"/>
-
-        <!-- ApplePay -->
-        <source-file src="libs/ios/Channels/ApplePay/libpingpp+applepay.a" framework="true"/>
-        <header-file src="libs/ios/Channels/ApplePay/Pingpp+ApplePay.h" />
 
         <!-- pingxx -->
         <resource-file src="libs/ios/Pingpp.bundle"/>
